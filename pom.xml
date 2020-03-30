@@ -27,6 +27,13 @@
             <url>http://repository.primefaces.org</url>
         </repository>
     </repositories>
+         
+  <distributionManagement>
+      <repository>
+        <id>repository-example</id>
+        <url>http://54.224.219.234:8081/nexus/content/repositories/repository-example</url>
+       </repository>
+</distributionManagement>
 
     <dependencyManagement>
         <!-- Arquillian BOM used to reduce collision between testing dependecies. -->
